@@ -22,7 +22,7 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Github:
-├ %github
+├ https://github.com/nrkhlifah28/Nur-Md
 │
 ├ Note :
 ├ *Ⓟ* = Premium
