@@ -15,8 +15,8 @@ Ariffb:
 https://github.com/Ariffb25
 Aguz Familia:
 https://github.com/FokusDotId
-Amelia Lisa:
-https://github.com/Ameliascrf
+Nur Kholifah:
+https://github.com/nrkhlifah28
 Aniq12
 https://github.com/aniq12
 Ilman: 
