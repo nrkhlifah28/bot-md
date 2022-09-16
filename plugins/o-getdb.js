@@ -7,6 +7,6 @@ handler.help = ['getdb']
 handler.tags = ['host']
 handler.command = /^(g(et)?db)$/i
 
-handler.rowner = true
+handler.owner = true
 
 module.exports = handler
