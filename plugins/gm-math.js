@@ -30,6 +30,7 @@ ${usedPrefix}math hard
 handler.help = ['math <mode>']
 handler.tags = ['game']
 handler.command = /^math/i
+handler.group = true
 
 module.exports = handler
 
