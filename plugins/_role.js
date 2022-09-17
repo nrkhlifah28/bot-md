@@ -36,14 +36,14 @@ handler.before = function (m) {
                                                                                                                                 : ((user.level >= 91) && (user.level <= 94)) ? 'Mythic IV'
                                                                                                                                     : ((user.level >= 94) && (user.level <= 97)) ? 'Mythic III'
                                                                                                                                         : ((user.level >= 97) && (user.level <= 100)) ? 'Mythic II'
-                                                                                                                                            : 'Mythic I'
-                                                                                                                                               : ((user.level >= 100) && (user.level <= 150)) ? 'The Legend Off Role Epical Glory III'
-                                                                                                                                                   : ((user.level >= 150) && (user.level <= 200)) ? 'The Legend Off Role Epical Glory II'
-                                                                                                                                                       : ((user.level >= 200) && (user.level <= 400)) ? 'The Legend Off Role Epical Glory I'
-                                                                                                                                                           : ((user.level >= 400) && (user.level <= 800)) ? 'The Legend Off Master Role Mythical III'
-                                                                                                                                                              : ((user.level >= 800) && (user.level <= 1200)) ? 'The Legend Off Master Role Mythical II'
-                                                                                                                                                                  : ((user.level >= 1200) && (user.level <= 5000)) ? 'The Legend Off Master Role Mythical I'
-                                                                                                                                                                      : ((user.level >= 5000) && (user.level <= 10000)) ? 'The King Off Master Legends Role Epic To Mythical Gloryel'
+                                                                                                                                            : ((user.level >= 97) && (user.level <= 150)) ? 'Mythic I'
+                                                                                                                                               : ((user.level >= 150) && (user.level <= 200)) ? 'The Legend Off Role Epical Glory III'
+                                                                                                                                                   : ((user.level >= 200) && (user.level <= 400)) ? 'The Legend Off Role Epical Glory II'
+                                                                                                                                                       : ((user.level >= 400) && (user.level <= 800)) ? 'The Legend Off Role Epical Glory I'
+                                                                                                                                                           : ((user.level >= 800) && (user.level <= 1200)) ? 'The Legend Off Master Role Mythical III'
+                                                                                                                                                              : ((user.level >= 1200) && (user.level <= 5000)) ? 'The Legend Off Master Role Mythical II'
+                                                                                                                                                                  : ((user.level >= 5000) && (user.level <= 10000)) ? 'The Legend Off Master Role Mythical I'
+                                                                                                                                                                      : ((user.level >= 10000) && (user.level <= 50000)) ? 'The King Off Master Legends Role Epic To Mythical Gloryel'
     user.role = role
     return !0
 }
